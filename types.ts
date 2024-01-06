@@ -7,4 +7,6 @@ export type Work = {
     url: string;
     thumbnail: string;
     date: string;
+    technologies: string[];
 }
+

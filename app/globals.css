@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-
+body {
+    background-color: rgb(255 251 235 / 1);
 }
-

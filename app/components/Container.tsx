@@ -12,7 +12,7 @@ const Container = ({ id, title, summary, content, source, url, thumbnail, date, 
     return (
         <div key={id} className='flex flex-col justify-center items-center border-white shadow-[inset_-9px_-9px_8px_#f8f8f4,inset_9px_9px_8px_#d0caac] text-caramel rounded-3xl w-[80%] md:max-w-[45%] p-6 my-2'>
             <MotionDiv>
-                <Image src={thumbnail} width={500} height={300} alt="" className='w-full rounded-3xl' />
+                <Image src={thumbnail} width={1600} height={1200} alt="" className='w-full rounded-3xl' />
                 <div className='flex justify-between items-baseline w-full mt-2'>
                     <h2 className='text-2xl '>{title}</h2>
                     <time className='text-sm text-end'>{format(parseISO(date), 'yyyy.MM.dd')}</time>
